@@ -1,10 +1,10 @@
 build:
 	g++ -Werror -Wall -Wextra -o load load.cpp
 	g++ -Werror -Wall -Wextra -o clear clear.cpp
-	g++ -Werror -Wall -Wextra -o converter converter.cpp
+	g++ -Werror -Wall -Wextra -o path path.cpp
 
-convert:
-	g++ -Werror -Wall -Wextra -o converter converter.cpp
+path:
+	g++ -Werror -Wall -Wextra -o path path.cpp
 
 load:
 	g++ -Werror -Wall -Wextra -o load load.cpp
